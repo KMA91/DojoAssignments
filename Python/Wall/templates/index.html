@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+<!--######### LOGIN #################################################-->
+    <h1>Welcome. Please Log in.</h1>
+      {% with messages = get_flashed_messages() %}
+         {% if messages %}
+               {% for message in messages %}
+                    <p>{{ message }}</p>
+               {% endfor %}
+         {% endif %}
+      {% endwith %}
+    <form action='/login' method='POST'>
+        <label for='emailLAB'>Email:</label>
+        <input type='text' id='emailLogLab' name='email_log'>
+        <label for='pass_log'>Password:</label>
+        <input type='text' id='passLogLab' name='pass_log'>
+        <button>Login</button>
+    </form>
+<!--######## REGISTER ###############################################-->
+    <h1>Not yet registered? Register below!</h1>
+    <form action='/register' method='POST'>
+        <label for='fname_reg'>First Name:</label>
+        <input type='text' id='fname_reg' name='fname_reg'>
+        <label for='lname_reg'>Last Name:</label>
+        <input type='text' id='lname_reg' name='lname_reg'>
+        <label for='email_reg'>Email:</label>
+        <input type='text' id='email_reg' name='email_reg'>
+        <label for='pass_reg'>Password:</label>
+        <input type='text' id='pass_reg' name='pass_reg'>
+
+        <button>Register</button>
+    </form>
+</body>
+</html>

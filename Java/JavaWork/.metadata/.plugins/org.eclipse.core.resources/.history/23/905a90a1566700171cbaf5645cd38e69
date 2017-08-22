@@ -1,0 +1,8 @@
+package com.teamroster.models;
+
+import java.util.ArrayList;
+
+public class Team {
+	private String team_name;
+	private ArrayList<Player> players;
+}

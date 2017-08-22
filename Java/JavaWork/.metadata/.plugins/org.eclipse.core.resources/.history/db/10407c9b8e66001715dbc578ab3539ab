@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Button Clicker</display-name>
+  <description>Button Clicker application</description>
+  
+  <servlet>
+    <servlet-name>clicker</servlet-name>
+    <servlet-class>com.buttonclicker.controllers.clicker</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>clicker</servlet-name>
+    <url-pattern>ButtonClicker</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>

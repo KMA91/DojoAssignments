@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Functions</title>
+<link rel="stylesheet" type="text/css" href="jQueryFunctions.css">
+<script type="text/javascript" src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$('#one').click(function(){
+			alert('.click is being used with alert!');
+		})
+
+		$('#hide').click(function(){
+			$('#two').hide();
+		})
+		
+		$('#show').click(function(){
+			$('#two').show();
+		})
+
+		$('#toggle').click(function(){
+			$('#three').toggle();
+		})
+
+		$('#bUp').click(function(){
+			$("#four").slideUp();
+
+		})
+
+		$('#bDown').click(function(){
+			$("#four").slideDown();
+
+		})
+
+		$('#sToggle').click(function(){
+			$("#five").slideToggle();
+		})
+
+		$('#fIn').click(function(){
+			$("#six").fadeIn(2500);
+		})
+
+		$('#fOut').click(function(){
+			$("#six").fadeOut(2500);
+		})
+
+		$("p").addClass("red");{
+		}
+
+		$("#seven").click(function(){
+			$("p").before("<p>HELLO<p>");
+		})
+
+		$("#eight").click(function(){
+			$("p").after("<p>GOODBYE<p>");
+		})
+
+		$("#nine").click(function(){
+			$("p").append("<h1>append</h1>");
+		})
+
+		$("#ten").click(function(){
+			$("p").html("HELLO WORLD!");
+		})
+
+		$("#eleven").click(function(){
+			$("img").attr("with","500");
+		})
+
+		$("#twelve").click(function(){
+			$("input:text").val("Deadpool");
+		})
+
+		$("#thirteen").click(function(){
+			$("p").text("I'M SO BORED!")
+		})
+
+		$("#fifteen").click(function(){
+			$("#fourteen").data("greeting", "Data transfer successful!")
+		})
+
+		$("#sixteen").click(function(){
+			alert($("#fourteen").data("greeting"));
+		})
+
+	})
+
+</script>
+
+</head>
+<body>
+
+<p id = perm>.click is used on the paragraph below!</p>
+<p id = one>Click me to see what .click does!</p>
+
+<p>.hide() - Hide the matched elements.</p>
+<p id = perm>.hide is used on the paragraph below!</p>
+<button id = hide >Click me to use .hide</button>
+
+<p id = two>WATCH ME DISSAPEAR AND REAPPEAR!</p>
+
+<p>.show() - Display the matched elements.</p>
+<p id = perm>click the button above to use .show!</p>
+<button id = "show">Click me to use .show</button>
+
+<p>.toggle() - Display or hide the matched elements.</p>
+<button id = "toggle">Click me to use .toggle!</button>
+<p id = "three">Check out what .toggle does to me!</p>
+
+<p>.slideDown() - Display the matched elements with a sliding motion.</p>
+<p>.slideUp() - Hide the matched elements with a sliding motion.</p>
+<div id = "four">Check out what .slideDown and .slideUp does to this when you click the button!</div>
+<button id = "bDown">.slideDown!</button>
+<button id = "bUp">.slideUp!</button>
+
+<p>.slideToggle() - Display or hide the matched elements with a sliding motion.</p>
+<div id = "five">Click the button to see what .slideToggle does!</div>
+<button id = "sToggle">.slideToggle!</button>
+
+<p>.fadeIn - Display the matched elements by fading them to opaque.</p>
+<p>.fadeOut - Hide the matched elements by fading them to transparent.</p>
+<button id = "fIn">.fadeIn</button>
+<button id = "fOut">.fadeOut</button>
+<div id = "six">Let's see where I go with .fadeIn and .fadeOut!</div>
+
+<p>The ugly red background in the text was added with .addclass!</p>
+
+<button id="seven">Click me to add a paragraph with "HELLO" .AFTER every paragraph!(.after)</button>
+<button id="eight">Click me to add a paragraph with "GOODBYE" .BEFORE every paragraph!(.before)</button>
+<button id="nine">.Append "append" after every p by clicking here!</button>
+<button id="ten">Change all Ps to "HELLO WORLD!" with .html!</button>
+<button id="eleven">Let's use .attr to add width to all buttons!</button>
+<img src="1.jpg" width="50px" height="50px">
+
+<input type="text" name="user">
+<button id="twelve">Click me to pre-fill the form with .val!</button>
+<button id="thirteen">Click to change all Ps to I'M SO BORED!</button>
+
+<div id="fourteen"></div>
+<button id="fifteen">Click me first to attach data via .data</button>
+<button id="sixteen">Click me to open the alert with the new data!</button>
+
+</body>
+</html>

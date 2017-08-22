@@ -1,0 +1,11 @@
+for (var num = 0; num > -301; num -= 3) {
+if (num == -3) {
+continue;
+}  
+{
+if (num == -6) {
+    continue;
+  }
+}
+console.log(num);
+}

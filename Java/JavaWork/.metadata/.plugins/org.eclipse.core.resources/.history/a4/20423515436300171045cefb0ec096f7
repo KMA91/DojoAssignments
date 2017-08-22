@@ -1,0 +1,8 @@
+public interface PlayPokemon {
+	void createPokemon(String name, Integer health, String type);
+	
+	public void attackPokemon();
+//	public void pokemonInfo();
+	
+	public void pokemonInfo();
+}

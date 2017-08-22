@@ -1,0 +1,9 @@
+public class PokedexTest {
+
+	public static void main(String[] args) {
+		Pokemon pokemon = new Pokemon("Kevin", 100, "Grass");
+		Pokedex pokedex = new Pokedex();
+		System.out.println(pokedex.pokemonInfo(pokemon));
+	}
+
+}

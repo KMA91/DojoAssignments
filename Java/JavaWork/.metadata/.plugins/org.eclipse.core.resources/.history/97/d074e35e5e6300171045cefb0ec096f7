@@ -1,0 +1,6 @@
+public class Pokedex extends AbstractClass{
+	private String name;
+	private int health;
+	private String type;
+
+}

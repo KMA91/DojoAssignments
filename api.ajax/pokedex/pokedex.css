@@ -1,0 +1,21 @@
+.container{
+	outline: 2px solid black;
+	width: 1300px;
+	height: 2850px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.pokemon{
+	outline: 2px solid green;
+	width: 850px;
+	display: inline-block;
+}
+
+.dex{
+	outline: 25px solid red;
+	width: 435px;
+	height: 600px;
+	display: inline-block;
+	vertical-align: top;
+}

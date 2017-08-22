@@ -1,0 +1,13 @@
+package com.kevinma.pet.models;
+
+public class Animal {
+	protected String name;
+	protected String breed;
+	protected int weight;
+	
+	public Animal(String name, String breed, int weight){
+		this.name = name;
+		this.breed = breed;
+		this.weight = weight;
+	}
+}

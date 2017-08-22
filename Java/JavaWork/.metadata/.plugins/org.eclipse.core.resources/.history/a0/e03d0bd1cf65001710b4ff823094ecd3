@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+
+.checkerboard{
+	outline: 2px solid black;
+	width: request.getParameter("w");
+	height: request.getParameter("h");
+}

@@ -1,0 +1,10 @@
+public class Human {
+	protected Integer health = 100;
+	private Integer strength = 3;
+	private Integer stealth = 3;
+	private Integer intelligence = 3;
+	
+	public void attack(Human defender){
+		defender.health -= this.strength;
+	}
+}

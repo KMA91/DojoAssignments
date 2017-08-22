@@ -1,0 +1,3 @@
+public interface PlayPokemon {
+	void createPokemon(String name, Integer health, String type);
+}

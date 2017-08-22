@@ -1,0 +1,5 @@
+package com.stopwatch.models;
+
+public class Time {
+
+}

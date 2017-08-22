@@ -1,0 +1,12 @@
+package com.teamroster.models;
+
+import java.util.ArrayList;
+
+public class Team implements java.io.Serializable{
+	private String team_name;
+	private ArrayList<Player> players;
+	
+	public Team(){
+	}
+	
+}

@@ -1,0 +1,18 @@
+function get_array() {
+function lcm(lowNum, highNum){
+  return (lowNum / gcf(lowNum, highNum)) *b;
+}
+var lowNum = 0;
+var highNum = 0;
+var mult = 0;
+
+for (var x = 0; x < arr.length; x++){
+if(arr[x] > highNum){
+highNum = arr[x];
+}
+if (arr[x] < lowNum){
+  lowNum = arr[x];
+}
+mult = lcm;
+}
+  console.log([lowNum, highNum, mult])

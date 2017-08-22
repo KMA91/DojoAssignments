@@ -1,0 +1,11 @@
+SELECT * FROM users
+
+SELECT * FROM faves
+
+SELECT *
+FROM users
+WHERE first_name LIKE "K%"
+
+SELECT *
+FROM users
+ORDER BY last_name

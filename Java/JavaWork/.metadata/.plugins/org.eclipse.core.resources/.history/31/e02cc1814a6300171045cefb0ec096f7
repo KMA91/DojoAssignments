@@ -1,0 +1,12 @@
+class BycicleTest {
+    public static void main(String[] args) {
+        Bycicle b = new Bycicle();
+        // print constant
+        System.out.println(Bycicle.myConstant);
+        b.sayHello();
+        Bycicle.staticMethod();
+        b.speedUp(3);
+        b.applyBrakes(2);
+        System.out.println(b.getSpeed());
+    }
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success Page</title>
+</head>
+<body>
+    <p>The email address you entered {{ session['emailSUCC'] }} is a VALID email address! Thank you!
+    <h2>Email Addresses Entered:</h2>
+    {% for email in emails %}
+    <p>{{ email['email'] }}, {{ email['created_on'] }}</p>
+    {% endfor %}
+</body>
+</html>

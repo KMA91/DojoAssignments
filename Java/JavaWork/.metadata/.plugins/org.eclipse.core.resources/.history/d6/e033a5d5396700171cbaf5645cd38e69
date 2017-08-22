@@ -1,0 +1,40 @@
+package com.stopwatch.controllers;
+
+import java.io.IOException;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+//import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+
+public class Home extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+   
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		HttpSession session = request.getSession();
+		LocalDateTime now = LocalDateTime.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("h:m a");
+		String timeformat = now.format(formatter);
+		session.setAttribute("timenow", timeformat);
+		RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/showTimer.jsp");
+        view.forward(request, response);
+	}
+
+	private void setAtrribute(String string, Instant now) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

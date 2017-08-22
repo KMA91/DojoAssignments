@@ -1,0 +1,17 @@
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+		BankAccount b = new BankAccount();
+		b.getCBalance();
+		b.getSBalance();
+		b.deposit("checking", 25);
+		b.deposit("savings", 45);
+		b.withdraw("checking", 75);
+		b.withdraw("savings", 10);
+		b.getTotal();
+		b.totalaccounts = 50;
+		System.out.println(BankAccount.totalaccounts);
+	}
+
+}

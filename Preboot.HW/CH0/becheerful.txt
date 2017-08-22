@@ -1,0 +1,7 @@
+function beCheerful() {
+console.log("good morning!")
+}
+
+for (i = 1; i < 99; i++) {
+beCheerful();
+}

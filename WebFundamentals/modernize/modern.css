@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+.container{
+/*	outline: 2px dotted red;*/
+	background-color: #1a1a1a;
+	border-left: 7px solid #161616;
+	border-right: 7px solid #161616;
+	width: 977px;
+	height: 1200px;
+	}
+
+.box1{
+/*	outline: 2px dotted red;*/
+	padding-top: 25px;
+	width: 977px;
+	height: 90px;
+	display: inline-block;
+	color: white;
+}
+
+.box1 p{
+	font-weight: bold;
+	font-size: 0.8em;
+	padding-top: 25px;
+	vertical-align: top;
+	margin-left : 600px;
+	display: inline-block;
+}
+
+.box2{
+/*	outline: 2px solid red;*/
+	display: inline-block;
+	background-color: #444444;
+	width: 977px;
+	height: 45px;
+}
+
+.box2 p:first-child{
+		color: white;
+		margin-left: 20px;
+}
+
+.box2 p:not(:first-child){
+	color: #9a9999;
+}
+
+.box2 p{
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 12px 7px 12px 7px;
+}
+
+.box2 span{
+	font-size: 0.6em;
+	font-weight: bold;
+}
+
+#p{
+	color: #4c4c4c;
+	font-size: 1.2em;
+}
+
+#main{
+  width: auto;
+  max-width: 1200px;
+  height: auto;
+  max-height: 1200px;
+  border-bottom: 7px solid #3b3b3b;
+}
+
+.box3 {
+	color: #f6812c;
+/*	outline: 2px solid red;*/
+	width: 977px;
+	height: 45px;
+	padding-top: 20px;
+
+}
+
+.box3 p{
+	display: inline-block;
+	font-weight: bold;
+	position: relative;
+	bottom: 12px;
+	font-size: 1.1em;
+}
+
+.box3 img{
+	margin-left: 18px;
+
+}
+
+.box3 img:not(:first-child){
+	margin-left: 70px;
+}
+.box4{
+	display: inline-block;
+/*	outline: 2px solid red;*/
+	color: white;
+	width: 977px;
+	height: 75px;
+}
+
+.box4 p{
+	font-size: 0.8em;
+	display: inline-block;
+	width: 165px;
+}
+
+.box4 p:first-child{
+	margin-left: 70px;
+}
+
+.box4 p:not(:first-child){
+	margin-left: 70px;
+}
+
+#p2{
+	margin-left: 5pxpx;
+}
+
+.box5{
+/*	outline: 2px solid red;*/
+	width: 977px;
+	height: 135px;
+	background: repeating-linear-gradient(
+		-55deg,
+		black,
+		black 3px,
+		#333 3px,
+		#333 6px
+		)
+}
+
+.box5 p{
+	display:inline-block;
+	color: white;
+	width: 750px;
+}
+
+.box5 p:first-child{
+	padding-top: 30px;
+	padding-left: 38px;
+	font-size: 1.6em;
+}
+
+.box5 p:not(:first-child){
+	padding-top: 7px;
+	padding-left: 38px;
+	font-size: 0.8em;
+}
+
+.buy{
+	vertical-align: top;
+	margin-left: 7px;
+	color: white;
+	font-size: 1.1em;
+	background-color: #f1924c;
+	border-color: #f1924c;
+	width: 122px;
+	height: 2.3em;
+	border-radius: 7px;
+	display:inline-block;
+	position: relative;
+	bottom: 14px;
+
+}
+
+.box6{
+/*	outline: 2px solid red;*/
+	width: 977px;
+	height: 75px;
+}
+
+.box6 h3{
+	padding: 30px 0 0 20px;
+	display: inline-block;
+	font-size: 1.5em;
+	color: white;
+}
+
+.box6 p{
+	font-size: 1.3em;
+	display: inline-block;
+}
+
+.box6 span{
+	color: #dc7829;
+	font-size: 1em;
+	font-style: italic;
+	margin-left: 650px;
+	display: inline-block;
+}
+
+#photos{
+	border: 4px solid #363636;
+	margin-top: 15px;
+	margin-left: 17.5px;
+	font-color: #d5762b;
+}
+
+.box7{
+	width: 977px;
+	height: 200px;
+}
+
+.box7{
+	display: inline-block;
+	width: 225px;
+	height: 500px;
+}
+
+.box7 h3{
+	color: #f1924c;
+	margin-left: 17px;
+}
+
+.box7 p{
+	color: white;
+	margin-left: 17px;
+	width: 210px;
+	font-size: 0.8em;
+}
+
+.box8{
+	display: inline-block;
+	width: 225px;
+	height: 500px;
+	vertical-align: top;
+}
+
+.box8 h3{
+	color: #f1924c;
+	margin-left: 17px;
+}
+
+.box8 p{
+	color: white;
+	margin-left: 17px;
+	width: 210px;
+	font-size: 0.8em;
+}
+
+.box9{
+	display: inline-block;
+	width: 225px;
+	height: 500px;
+	vertical-align: top;
+}
+
+.box9 h3{
+	color: #f1924c;
+	margin-left: 17px;
+}
+
+.box9 p{
+	color: white;
+	margin-left: 17px;
+	width: 210px;
+	font-size: 0.8em;
+}
+
+.box10{
+	display: inline-block;
+	width: 225px;
+	height: 500px;
+	vertical-align: top;
+}
+
+.box10 h3{
+	color: #f1924c;
+	margin-left: 17px;
+}
+
+.box10 p{
+	color: white;
+	margin-left: 17px;
+	width: 210px;
+	font-size: 0.8em;
+}
+
+.box11{
+	position: relative;
+	font-weight: bold;
+	font-size: 0.7em;
+	left: 880px;
+	bottom: 194px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	color: #737373;
+}

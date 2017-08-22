@@ -1,0 +1,48 @@
+package com.teamroster.controllers;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+import com.teamroster.models.Team;
+
+public class NewTeam extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/newTeam.jsp");
+        view.forward(request, response);
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		Team team = new Team(request.getParameter("team_name"));
+		HttpSession session = request.getSession();
+		if(session.getAttribute("teams") == null){
+			ArrayList<Team> teams = new ArrayList<Team>();
+			teams.add(team);
+			session.setAttribute("teams", teams);
+			System.out.println(teams);
+			System.out.println("AFTER ARRAYLIST TEAMS IN NEWTEAM CONTROLLER");
+			RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/showTeam.jsp");
+	        view.forward(request, response);
+		}else{
+			ArrayList<Team> teams = (ArrayList<Team>) session.getAttribute("teams");
+			teams.add(team);
+			session.setAttribute("team", teams);
+			RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/showTeam.jsp");
+	        view.forward(request, response);
+		}
+		RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/showTeam.jsp");
+        view.forward(request, response);
+	}
+
+}

@@ -1,0 +1,21 @@
+table{
+	outline: 2px solid black;
+	width: 620px;
+}
+
+th{
+	padding: 0 30px;
+}
+
+h2{
+	border-bottom: 2px solid grey;
+	width: 400px
+}
+
+tr{
+	width: 150px;
+}
+
+td{
+	width: 150px;
+}

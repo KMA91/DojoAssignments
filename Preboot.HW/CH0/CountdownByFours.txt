@@ -1,0 +1,7 @@
+var x = 2016
+
+while (x > 1) 
+{
+  console.log(x);
+  x-=4;
+}

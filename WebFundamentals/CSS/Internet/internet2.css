@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+/*    outline: 2px solid red;*/
+}
+
+.container{
+    width: 1050px;
+    height: 1200px;
+}
+
+.box1{
+    display: inline-block;
+}
+
+.box1 img{
+    margin-right: -10px;
+}
+
+h1{
+    vertical-align: top;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 3em;
+    display: inline-block;
+}
+
+span{
+    color: #0097ae;
+}
+
+.box2{
+/*    outline: 2px dotted red;*/
+    width: 1050px;
+    height: 50px;
+    margin-top: -15px;
+    background: linear-gradient(#3571a4, #5183ab, #3571a4);
+}
+.box2 h2{
+    font-size: 2em;
+    color: white;
+    margin-right: 20px;
+    margin-top: -10px;
+    height: 20px;
+}
+
+.box3{
+/*    outline: 2px dotted red;*/
+    width: 300px;
+    height: 225px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.box3 h3 span{
+    color: red;
+}
+
+.box3 h3{
+    font-size: 1.3em;
+}
+
+.box3 p span{
+    color: blue;
+}
+
+.box3 p{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.box3 button{
+    display: block;
+}
+
+.watchvid{
+    margin-top: 35px;
+    background-color: #3f7aae;
+    color: white;
+    border-radius: 8px;
+    width: 295px;
+    height: 50px;
+}
+
+.moreres{
+    margin-top: 5px;
+    background-color:#ee8200;
+    color: white;
+    border-radius: 8px;
+    width: 295px;
+    height: 50px;
+}
+
+.borderleft{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+.box4{
+/*    outline: 2px solid red;*/
+
+    display: inline-block;
+    width: 494px;
+    height: 100px;
+    vertical-align: top;
+}
+
+.DNS{
+    display:inline-block;
+    color: #22659e;
+}
+
+.phone{
+    margin-left: 375px;
+    position: relative;
+    top: 19px;
+}
+
+.box5{
+/*    outline: 2px solid red;*/
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.box5 p{
+    color: black;
+    font-size: 0.8em;
+}
+
+.box5 h2{
+    color: #00bfdf;
+    font-size: 2.2em;
+}
+
+
+/*SMALL CONTAINER STARTS HERE. <<<<<<<<<<<<<<<<<<<<*/
+.smallcontainer{
+/*    outline: 2px solid blue;*/
+    width: 745px;
+    height: 800px;
+}
+
+.borderright{
+/*    outline: 2px dotted red;*/
+    width: 730px;
+    height: 1px;
+    margin-top: 35px;
+    margin-left: 5px;
+    border-top: 2px solid #9a9a9a;
+}
+
+.box6{
+/*    outline: 2px dotted red;*/
+    width: 740px;
+    height: 525px;
+    margin-bottom: 5px;
+
+}
+
+.box6 h2{
+    color: #22659e;
+    padding-top: 3px;
+    padding-left: 1px;
+}
+
+.box6 p{
+    padding-top: 5px;
+    padding-left: 1px;
+}
+
+.box6 ul{
+    padding: 5px 0 0 25px;
+    margin-bottom: 20px;
+}
+
+.box6 li{
+    margin-bottom: 8px;
+}
+
+#clsv{
+    font-weight: bold;
+    color: black;
+}
+
+.box6 img{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 225px;
+    margin-bottom: 8px;
+}
+
+.box6 ol{
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.box7{
+    outline: 4px solid blue;
+    width: 740px;
+    height: 140px;
+
+}
+
+.box7 img{
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px 3px 0 10px;
+}
+
+.box7 h2{
+    display: inline-block;
+    color: #22659e;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.box7 p{
+    display: inline-block;
+    width: 500px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 60px;
+    left: 118px;
+}
+
+.box7 a{
+    color: #0097ae;
+    text-decoration: none;
+}
+
+/*SMALL CONTAINER ENDS HERE <<<<<<< LOOK IN HTML AFTER BOX 5*/
+
+.final {
+/*    outline: 2px solid black;*/
+    margin-top: 30px;
+    width: 300px;
+    height: 350px;
+}
+
+#ad{
+    margin: 10px 0 0 15px;
+    margin-top: 10px;
+    height: auto;
+    max-width: 235px;
+}
+
+.final p{
+    color: white;
+    width: 200px;
+    font-size: 1.7em;
+    text-align: center;
+    position: relative;
+    bottom: 345px;
+    left: 35px;
+
+}
+
+#ninja{
+    max-width: 150px;
+    max-height: 150px;
+    position: relative;
+    bottom: 345px;
+    left: 70px;
+}
+
+.final button{
+    background-color: #3ec9df;
+    color: white;
+    width: 185px;
+    height: 40px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 300px;
+    right: 73px;
+}

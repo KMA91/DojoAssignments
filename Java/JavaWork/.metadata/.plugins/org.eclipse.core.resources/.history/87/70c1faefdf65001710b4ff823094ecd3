@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+
+.blue{
+	background-color: blue;
+	width: 25px;
+	height: 25px;
+}
+
+.purple{
+	background-color: purple;
+	width: 25px;
+	height: 25px;
+}

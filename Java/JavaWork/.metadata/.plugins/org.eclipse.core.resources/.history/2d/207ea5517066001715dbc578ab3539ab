@@ -1,0 +1,10 @@
+package com.kevinma.pet.models;
+
+public class Cat extends Animal{
+
+	public Cat(String name, String breed, int weight) {
+		Cat(name, breed, weight);
+		// TODO Auto-generated constructor stub
+	}
+
+}

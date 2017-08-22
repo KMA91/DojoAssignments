@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <form action="/results" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" name="name">
+
+      <label for="location">Dojo Location:</label>
+      <input type="text" name="location">
+
+      <label for="language">Favorite Language:</label>
+      <select name="language">
+        <option value = "javascript">JavaScript
+        <option value = "python">Python
+      </select>
+
+      <label for="comment">Comment (optional):</label>
+      <input type="textarea" name="comment">
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

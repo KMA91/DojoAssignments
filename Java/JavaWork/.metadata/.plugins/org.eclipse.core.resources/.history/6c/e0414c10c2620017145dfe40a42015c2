@@ -1,0 +1,6 @@
+public class Human {
+	private Integer health = 100;
+	private Integer strength = 3;
+	private Integer stealth = 3;
+	private Integer intelligence = 3;
+}

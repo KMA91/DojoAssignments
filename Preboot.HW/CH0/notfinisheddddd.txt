@@ -1,0 +1,9 @@
+var arr = [];
+var x = 10;
+
+if (x<=0)
+  {
+  arr.push(x);
+  console.log(arr);
+  x-=1;
+  }
