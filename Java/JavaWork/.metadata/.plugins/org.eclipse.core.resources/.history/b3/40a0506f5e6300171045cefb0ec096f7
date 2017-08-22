@@ -1,0 +1,16 @@
+public class Pokedex extends AbstractClass{
+	private String name;
+	private int health;
+	private String type;
+
+	@Override
+	public void createPokemon(String name, int health, String type) {
+		this.name = name;
+		this.health = health;
+		this.type = type;
+	}
+	
+	public String pokemonInfo(Pokemon pokemon){
+		return "Name: " + pokemon.getName() + ". Health: " + pokemon.getHealth() + ". Type: " + pokemon.getType() + ".";
+	}
+}

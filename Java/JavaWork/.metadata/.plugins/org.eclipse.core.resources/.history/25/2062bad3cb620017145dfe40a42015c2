@@ -1,0 +1,20 @@
+import java.util.Random;
+
+public class BankAccount {
+	private String accountNumber;
+	private long checkingBalance;
+	private long savingsBalance;
+	public static int totalaccounts = 0;
+	public static int totalamount = 0;
+	
+	public long createAccount(){
+		String string = "";
+		for(int x = 0; x <= 10; x++){
+			Random r = new Random();
+		    int n = 1 + r.nextInt(9);
+		    string += n;		
+		}
+		return Integer.parseInt(string);
+	}
+	
+}

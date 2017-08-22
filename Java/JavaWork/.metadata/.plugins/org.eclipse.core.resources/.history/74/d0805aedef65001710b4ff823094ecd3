@@ -1,0 +1,8 @@
+
+public class Dog {
+	public Dog(String name, String breed, int weight){
+		this.name = name;
+		this.breed = breed;
+		this.weight = weight;
+	}
+}

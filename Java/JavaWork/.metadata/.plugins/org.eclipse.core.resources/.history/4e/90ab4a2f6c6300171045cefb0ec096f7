@@ -1,0 +1,4 @@
+public interface UseCalculator {
+	void performOperation(double operand, String operation, double operand2);
+	void getResults();
+}

@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+.blue{
+	background-color: blue;
+	width: request.getParameter("w") + "px";
+	height: request.getParameter("h") + "px";
+}
+
+.purple{
+	background-color: purple;
+}

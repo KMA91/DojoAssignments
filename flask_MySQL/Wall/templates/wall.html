@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wall Assignment</title>
+</head>
+<body>
+    <h1>Dojo Wall</h1>
+        <p>Welcome {{ session['fname'] }} {{ session['lname'] }}</p>
+    <form action='/'>
+        <button>log off</button>
+    </form>
+    <form action='/postMES' method='POST'>
+        <label for='postmsg'>Post a message</label>
+        <input type='text' name='postmsg'>
+        <button>Post</button>
+    </form>
+    {% for dictionary in wallDB|reverse %}
+    <h3>{{ dictionary['first_name'] }} {{ dictionary['last_name'] }}</h3>
+    <p>{{ dictionary['message'] }} {{ dictionary['created_at'] }}</p>
+    <p>{{ dictionary['comment'] }}</p>
+    <h1> {{ dictionary['id'] }}</h1>
+    <input type="hidden" value='{{ dictionary['id'] }}' name='messID'>
+    <input type="hidden" value='{{ dictionary['users.id'] }}' name='useID'>
+    <form action='/postCOM' method='POST'>
+        <label for='postcom'>Post a comment</label>
+        <input type='text' name='postcom'>
+        <button>Post</button>
+    </form>
+    {% endfor %}
+</body>
+</html>

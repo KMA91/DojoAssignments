@@ -1,0 +1,32 @@
+public class Pokemon {
+	private String name;
+	protected Integer health;
+	private String type;
+	public static Integer countPoke = 0;
+	
+	public Pokemon(String name, Integer health, String type){
+		this.name = name;
+		this.health = health;
+		this.type = type;
+		this.countPoke += 1;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Integer getHealth() {
+		return health;
+	}
+	public void setHealth(Integer health) {
+		this.health = health;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+}

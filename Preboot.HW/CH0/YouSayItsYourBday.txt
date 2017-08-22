@@ -1,0 +1,35 @@
+function LeapYear( )
+{
+console.log("LeapYear");
+}
+
+function NoLeapYear( )
+{
+console.log("Not Leap Year");
+}
+
+if (day =/4 && ==/100) {
+LeapYear();
+else
+
+/4 = leap year
+unless it is /100, not leap year
+unless it is /400, leap year
+
+
+
+If a year is divisible by four, it is 
+a leap year, unless it is divisible by 100. However, 
+if it is divisible by 400, then it is.
+
+function LeapYear( )
+{
+console.log("LeapYear");
+}
+
+function NoLeapYear( )
+{
+console.log("Not Leap Year");
+}
+
+if (day /= 4

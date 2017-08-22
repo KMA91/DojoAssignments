@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dojo Survey Index</title>
+</head>
+<body>
+<h1>Submitted Info</h1>
+{% with name = get_flashed_messages() %}
+    {% if name %}
+        {% for name in name %}
+<p>{{name}}</p>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+<p>{{location}}</p>
+<p>{{language}}</p>
+<p>{{textarea}}</p> 
+<form action='/'>
+<button>BACK</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,145 @@
+#container{
+background-color: purple;
+height: 1500px;
+width: 1100px;
+}
+
+.header{
+background-color: silver;
+height: 60px;
+margin-bottom: 20px;
+}
+
+.aboutme{
+background-color: white;
+height: 294px;
+width: 480px;
+margin-left: 20px;
+display: inline-block;
+vertical-align: top;
+}
+
+.pj1, .pj2, .pj3{
+height: 700px;
+width: 285px;
+background-color:white;
+display: inline-block;
+vertical-align: top;
+margin: 9px 9px 9px 29px;
+}
+
+.footer{
+background-color: white;
+height: 75px;
+text-align: center;
+}
+
+.footer a{
+  font-style: italic;
+}
+
+span{
+  font-size: 20px;
+  margin-left: 500px;
+}
+
+h1{
+  position:relative;
+  top: 10px;
+  left: 10px;
+}
+
+h2{
+  padding-left: 10px;
+  background-color:grey;
+}
+
+.photome{
+  width: 450px;
+  margin-left: 22px;
+  outline: 4px solid grey;
+  display: inline-block;
+}
+
+.aboutme a{
+margin-top: 5px;
+display: block;
+}
+
+.aboutme h2{
+background-color: gray;
+width: 470px;
+margin-left: 10px;
+position: relative;
+bottom: 15px;
+right: 10px;
+}
+
+.aboutme p{
+  width: 450px;
+  margin-left: 15px;
+}
+
+.lamode{
+  content: url(lamode.png);
+  max-width: 250px;
+}
+
+.pj1 p,.pj2 p,.pj3 p{
+  padding: 10px;
+}
+
+.pj1 p{
+  padding-bottom: 50px;
+}
+
+.Techdown{
+  margin-left: 10px;
+}
+
+.Techdown2{
+  margin-left: 10px;
+}
+
+.Techdown3{
+  margin-left: 10px;
+}
+
+.topmain{
+background-color: grey;
+}
+
+.labutton{
+    margin-left: 83px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:18px;
+}
+
+.fbutton{
+    margin-left: 51px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:18px;
+}
+.fivebutton{
+    margin-left: 65px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:18px;
+}

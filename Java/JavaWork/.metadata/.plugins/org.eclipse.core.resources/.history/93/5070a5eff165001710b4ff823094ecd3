@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <display-name>Pets</display-name>
+  <description>Pets application</description>
+  <servlet>
+    <servlet-name>Pets</servlet-name>
+    <servlet-class>com.kevinma.web.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>

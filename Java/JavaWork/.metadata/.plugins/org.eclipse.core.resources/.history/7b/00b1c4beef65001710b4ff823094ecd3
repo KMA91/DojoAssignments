@@ -1,0 +1,16 @@
+
+public class Animal {
+	private String name;
+	private String breed;
+	private int weight;
+	
+	public String getName() {
+		return name;
+	}
+	public String getBreed() {
+		return breed;
+	}
+	public int getWeight() {
+		return weight;
+	}
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Ninja Gold</title>
+  </head>
+  <body>
+    <p>Your Gold: <input type='text' name='TTLgold' value='{{ request.session.gold }}'></p>
+<!-- THIS IS WHERE YOU FIND GOLD #################################### -->
+    <div class=''>
+        <p>Farm</p>
+        <p>(earns 10-20 golds)</p>
+        <form action='/process_money' method='post'>
+          {% csrf_token %}
+          <input type='hidden' name='location' value='farm'>
+        <p><button>Find Gold!</button></p>
+      </form>
+    </div>
+    <div class=''>
+        <p>Cave</p>
+        <p>(earns 5-10 golds)</p>
+        <form action='/process_money' method='post'>
+          {% csrf_token %}
+          <input type='hidden' name='location' value='cave'>
+        <p><button>Find Gold!</button></p>
+      </form>
+    </div>
+    <div class=''>
+        <p>House</p>
+        <p>(earns 2-5 golds)</p>
+        <form action='/process_money' method='post'>
+          {% csrf_token %}
+          <input type='hidden' name='location' value='house'>
+        <p><button>Find Gold!</button></p>
+      </form>
+    </div>
+    <div class=''>
+        <p>Casino</p>
+        <p>(earns/takes 0-50 golds)</p>
+        <form action='/process_money' method='post'>
+          {% csrf_token %}
+          <input type='hidden' name='location' value='casino'>
+        <p><button>Find Gold!</button></p>
+      </form>
+    </div>
+
+<!-- ACTIVITY ################################################### -->
+<div class="">
+  <p>Activities:</p>
+  {% for dictionary in request.session.activity|reverse: %}
+  <p>{{ dictionary.message }}</p>
+  {% endfor %}
+</div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+public class Pokedex extends AbstractClass{
+	public String pokemonInfo(Pokemon pokemon){
+		return pokemonInfo(pokemon);
+	}
+
+	public void createPokemon(String name, Integer health, String typee) {
+		// TODO Auto-generated method stub
+		
+	}
+}

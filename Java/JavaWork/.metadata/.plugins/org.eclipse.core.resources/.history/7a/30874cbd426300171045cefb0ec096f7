@@ -1,0 +1,12 @@
+public interface PlayPokemon {
+	void createPokemon(String name, Integer health, String type);
+	
+	public void attackPokemon();
+//	public void pokemonInfo();
+	
+	static void pokemonInfo(Pokemon pokemon){
+		pokemon.getName();
+		pokemon.getHealth();
+		pokemon.getType();
+	}
+}

@@ -1,0 +1,6 @@
+package com.teamroster.models;
+
+public class Team {
+	private String team_name;
+	private List<Player> players;
+}

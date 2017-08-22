@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Team Roster</display-name>
+  <description>Team Roster application</description>
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>com.teamroster.controllers.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NewPlayer</servlet-name>
+    <servlet-class>com.teamroster.controllers.NewPlayer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewPlayer</servlet-name>
+    <url-pattern>/NewPlayer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NewTeam</servlet-name>
+    <servlet-class>com.teamroster.controllers.NewTeam</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewTeam</servlet-name>
+    <url-pattern>/NewTeam</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ShowTeam</servlet-name>
+    <servlet-class>com.teamroster.controllers.ShowTeam</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowTeam</servlet-name>
+    <url-pattern>teams</url-pattern>
+  </servlet-mapping>
+</web-app>

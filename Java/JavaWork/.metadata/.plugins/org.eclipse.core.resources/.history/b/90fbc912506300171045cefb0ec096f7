@@ -1,0 +1,20 @@
+public class Pokedex extends AbstractClass{
+
+	@Override
+	public void createPokemon(String name, Integer health, String type) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void pokemonInfo(Pokemon pokemon) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void createPokemon() {
+		// TODO Auto-generated method stub
+		
+	}
+}

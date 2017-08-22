@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+/*    outline: 2px solid red;*/
+}
+
+.container{
+    width: 1050px;
+    height: 1200px;
+}
+
+.box1{
+    display: inline-block;
+}
+
+.box1 img{
+    margin-right: -10px;
+}
+
+h1{
+    vertical-align: top;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 3em;
+    display: inline-block;
+}
+
+span{
+    color: #22659e;
+}
+
+.box2{
+    outline: 2px dotted red;
+    width: 1050px;
+    height: 50px;
+    margin-top: -15px;
+    background: linear-gradient(#3571a4, #5183ab, #3571a4);
+}
+.box2 h2{
+    font-size: 2em;
+    color: white;
+    margin-right: 20px;
+    margin-top: -10px;
+    height: 20px;
+}
+
+.box3{
+/*    outline: 2px dotted red;*/
+    width: 300px;
+    height: 225px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.box3 h3 span{
+    color: red;
+}
+
+.box3 h3{
+    font-size: 1.3em;
+}
+
+.box3 p span{
+    color: blue;
+}
+
+.box3 p{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.box3 button{
+    display: block;
+}
+
+.watchvid{
+    margin-top: 15px;
+    background-color: #3f7aae;
+    color: white;
+    border-radius: 8px;
+    width: 295px;
+    height: 50px;
+}
+
+.moreres{
+    margin-top: 15px;
+    background-color:#ee8200;
+    color: white;
+    border-radius: 8px;
+    width: 295px;
+    height: 50px;
+}
+
+.borderleft{
+    width: 50px;
+    padding-bottom: 20px;
+    border-bottom: 6px solid black;
+}
+
+.box4{
+/*    outline: 2px solid red;*/
+    display: inline-block;
+    width: 494px;
+    height: 100px;
+    vertical-align: top;
+}
+
+p{
+    display:inline-block;
+    color: #22659e;
+}
+
+.phone{
+    margin-left: 375px;
+    position: relative;
+    top: 19px;
+}
+
+.box5{
+/*    outline: 2px solid red;*/
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.box5 p{
+    color: black;
+    font-size: 0.8em;
+}
+
+.box5 h2{
+    color: #00bfdf;
+    font-size: 2.2em;
+}
+
+.smallcontainer{
+    outline: 2px solid red;
+    width: 30px;
+    height: 500px;
+}

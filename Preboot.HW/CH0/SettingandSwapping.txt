@@ -1,0 +1,7 @@
+var myNumber = 42;
+var myName = "Kevin";
+var temp = 0;
+
+temp = myNumber;
+myNumber = myName;
+myName = temp;

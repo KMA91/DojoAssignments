@@ -1,0 +1,17 @@
+
+public class Dragon extends Mammal{
+	private Integer energyLevel = 300;
+	
+	public void fly(){
+		System.out.println("The dragon is flying!");
+		this.changeEnergy(-50);
+	}
+	public void eatHumans(){
+		System.out.println("The dragon is eating humans!");
+		this.changeEnergy(25);
+	}
+	public void attackTown(){
+		System.out.println("The dragon is attacking a town!");
+		this.changeEnergy(-100);
+	}
+}

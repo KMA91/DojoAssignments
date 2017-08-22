@@ -1,0 +1,6 @@
+public interface PlayPokemon {
+	void createPokemon(String name, Integer health, String type);
+	default void attackPokemon(Pokemon pokemon){
+		pokemon.health -= 10;
+		}
+}

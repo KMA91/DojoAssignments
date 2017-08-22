@@ -1,0 +1,13 @@
+1499797462263	Move 'pets.jsp' to 'views'
+1499804498391	Move 'pets.jsp' to 'WebContent'
+1499804730278	Rename resource 'pets.jsp'
+1499806028784	Delete element
+1499806286051	Delete element
+1499807002672	Delete element
+1499812007901	Move 'web.xml' to 'WebContent'
+1499812137458	Move 'web.xml' to 'WEB-INF'
+1499812168518	Move 'pet.jsp' to 'WEB-INF'
+1499812178009	Move 'pet.jsp' to 'WebContent'
+1499812318874	Move 'showDog.jsp' to 'WEB-INF'
+1499812326171	Move 'showDog.jsp' to 'views'
+1499894118683	Delete element

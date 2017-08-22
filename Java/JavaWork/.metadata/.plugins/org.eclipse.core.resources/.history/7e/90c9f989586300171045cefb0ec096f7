@@ -1,0 +1,7 @@
+public interface PlayPokemon {
+	void createPokemon(String name, Integer health, String typee);
+	void attackPokemon(Pokemon pokemon);
+	default String pokemonInfo(Pokemon pokemon){
+		return "Name: " + pokemon.getName() + ". Health: " + pokemon.getHealth() + ". Type: " + pokemon.getTypee() + ".";
+	}
+}

@@ -1,0 +1,7 @@
+public class Pokedex extends AbstractClass{
+
+	public void pokemonInfo(Pokemon pokemon) {
+		pokemon.pokemonInfo();
+	}
+
+}

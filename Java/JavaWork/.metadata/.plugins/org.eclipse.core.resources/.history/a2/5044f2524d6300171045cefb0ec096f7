@@ -1,0 +1,14 @@
+
+public abstract class AbstractClass implements PlayPokemon{
+	private String name;
+	private Integer health;
+	private String type;
+	public void createPokemon(String name, Integer health, String type){
+		this.name = name;
+		this.health = health;
+		this.type = type;
+	}
+	public void attackPokemon(Pokemon pokemon){
+		
+	}
+}

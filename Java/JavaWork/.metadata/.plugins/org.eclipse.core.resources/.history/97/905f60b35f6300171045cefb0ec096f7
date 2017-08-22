@@ -1,0 +1,12 @@
+
+public abstract class AbstractClass implements PlayPokemon{
+	
+	public void attackPokemon(Pokemon pokemon){
+		pokemon.setHealth(pokemon.getHealth() - 10);
+	}
+	
+	public String pokemonInfo(Pokemon pokemon){
+		return "Name: " + pokemon.getName() + ". Health: " + pokemon.getHealth() + ". Type: " + pokemon.getType() + ".";
+	}
+	
+}
